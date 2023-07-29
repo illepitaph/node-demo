@@ -1,7 +1,7 @@
 const https = require("node:https");
 // const crypto = require("node:crypto")
 
-const MAX_CALLS = 12;
+const MAX_CALLS = 4;
 
 const start = Date.now();
 
