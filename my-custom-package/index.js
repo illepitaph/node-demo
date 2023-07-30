@@ -1,5 +1,7 @@
 function greet(name) {
-    console.log(`Hello {name}, welcome to Code evolution`)
-
-    module.exports(greet)
+    console.log(`Hello ${name}, welcome to Code evolution`);
 }
+
+greet("Steve");
+
+module.exports = greet;
